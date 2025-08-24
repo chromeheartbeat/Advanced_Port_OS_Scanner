@@ -111,24 +111,24 @@ python scanner.py 192.168.1.174
 
 2. Stealth SYN scan  
 ```
-sudo python scanner.py 192.168.1.174 --syn
+sudo python scanner.py 192.168.1.1 --syn
 ```
 
 3. UDP probe scan  
 ```
-sudo python scanner.py 192.168.1.174 --udp
+sudo python scanner.py 192.168.1.1 --udp
 ```
 
 4. Full scan (TCP + UDP + OS fingerprinting)  
 ```
-sudo python scanner.py 192.168.1.174 --syn --udp --os
+sudo python scanner.py 192.168.1.1 --syn --udp --os
 ```
 
 ---
 
 ## 📖 Example Output
 ```
-[*] TCP Connect Scan 192.168.1.174 ports 0-1024
+[*] TCP Connect Scan 192.168.1.1 ports 0-1024
 [TCP] Port 80 OPEN (HTTP)
 [TCP] Port 443 OPEN (HTTPS)
 [TCP] Port 502 OPEN (Modbus)
